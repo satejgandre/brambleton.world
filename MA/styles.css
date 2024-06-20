@@ -63,6 +63,7 @@ nav ul li:hover {
 
 .tab-link:hover {
     background-color: #9932cc; /* Dark Orchid */
+    border-radius: 8px 8px 0 0;
 }
 
 .tab-content {
