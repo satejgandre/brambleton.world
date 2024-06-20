@@ -20,7 +20,7 @@ header h1 {
 
 .header-space {
     background-color: #4b0082; /* Indigo */
-    height: 20px; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
 }
 
 nav {
@@ -71,7 +71,6 @@ nav ul li:hover {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px; /* Added spacing between content box and navbar */
-    border-radius: 8px;
 }
 
 .tab-content.current {
