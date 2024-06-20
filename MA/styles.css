@@ -59,6 +59,8 @@ nav ul li:hover {
     display: block;
     text-align: center;
     padding: 10px 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .tab-link:hover {
@@ -82,6 +84,8 @@ nav ul li:hover {
     background-color: #9932cc; /* Dark Orchid */
     color: white;
     border-radius: 8px 8px 0 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 h1, h2 {
