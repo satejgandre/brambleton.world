@@ -2,18 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #6a0dad; /* Purple */
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav {
-    background-color: #333;
+    background-color: #4b0082; /* Indigo */
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -31,16 +35,34 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li:hover {
-    background-color: #575757;
+    background-color: #9932cc; /* Dark Orchid */
     cursor: pointer;
+}
+
+.tab-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.tab-link:hover {
+    background-color: #9932cc; /* Dark Orchid */
 }
 
 .tab-content {
     display: none;
     padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
 }
 
 .tab-content.current {
@@ -48,5 +70,25 @@ nav ul li:hover {
 }
 
 .tabs .current {
-    background-color: #4CAF50;
+    background-color: #9932cc; /* Dark Orchid */
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+h1, h2 {
+    color: #4b0082; /* Indigo */
+}
+
+h2 {
+    border-bottom: 2px solid #6a0dad; /* Purple */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
