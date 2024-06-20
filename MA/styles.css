@@ -18,11 +18,15 @@ header h1 {
     color: white; /* Main heading color */
 }
 
+.header-space {
+    background-color: #9370DB; /* Light Purple */
+    height: 20px; /* Adjust as needed */
+}
+
 nav {
     background-color: #4b0082; /* Indigo */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Add spacing above tabs */
 }
 
 nav ul {
@@ -35,7 +39,6 @@ nav ul {
 
 nav ul li {
     padding: 14px 20px;
-    margin-bottom: 0; /* Remove vertical spacing below tabs */
 }
 
 nav ul li a {
@@ -67,7 +70,7 @@ nav ul li:hover {
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 20px 20px 20px; /* Adjusted margin for cleaner look */
+    margin: 20px; /* Added spacing between content box and navbar */
     border-radius: 8px;
 }
 
