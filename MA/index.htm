@@ -36,8 +36,16 @@
         </div>
         <div id="week1" class="tab-content">
             <h2>Week 1: Function Theory</h2>
-            <p>Content for Function Theory goes here.</p>
-            <!-- Add videos, text, and images here -->
+            <h3>Inverse Functions</h3>
+        <p>An inverse function essentially reverses the effect of the original function. If you have a function <em>f</em> that takes <em>x</em> and maps it to <em>y</em>, the inverse function <em>f<sup>-1</sup></em> will take <em>y</em> and map it back to <em>x</em>. The inverse of a function <em>f</em> is denoted as <em>f<sup>-1</sup></em>.</p>
+        <p>For a function to have an inverse, it must be one-to-one (bijective), meaning each output is mapped from a unique input. You can use the horizontal line test to determine this: if any horizontal line intersects the graph of the function more than once, the function does not have an inverse.</p>
+        <p>To find an inverse function, start with the function equation <em>y = f(x)</em>. Next, switch <em>x</em> and <em>y</em>, writing <em>x = f(y)</em>. Then, solve for <em>y</em> and rewrite the result as <em>f<sup>-1</sup>(x)</em>. For example, for the function <em>f(x) = 2x + 3</em>, we write the function equation <em>y = 2x + 3</em>. Switching <em>x</em> and <em>y</em> gives us <em>x = 2y + 3</em>. Solving for <em>y</em> results in <em>y = (x - 3)/2</em>, and we rewrite this as <em>f<sup>-1</sup>(x) = (x - 3)/2</em>.</p>
+        <p>To verify that two functions are inverses, check that <em>f(f<sup>-1</sup>(x)) = x</em> and <em>f<sup>-1</sup>(f(x)) = x</em>.</p>
+        
+        <h3>Composite Functions</h3>
+        <p>A composite function is formed when one function is applied to the results of another function. If you have two functions <em>f</em> and <em>g</em>, the composite function <em>(f &#9675; g)(x)</em> means <em>f(g(x))</em>. The notation for the composite function of <em>f</em> and <em>g</em> is written as <em>(f &#9675; g)(x)</em>, which reads as "f composed with g of x".</p>
+        <p>To calculate a composite function, start by applying the inner function <em>g(x)</em>. Then take the result from <em>g(x)</em> and apply <em>f</em> to it. For example, given <em>f(x) = 2x + 3</em> and <em>g(x) = x<sup>2</sup></em>, first calculate <em>g(x)</em> to get <em>g(x) = x<sup>2</sup></em>. Then apply <em>f</em> to the result: <em>f(g(x)) = f(x<sup>2</sup>) = 2(x<sup>2</sup>) + 3 = 2x<sup>2</sup> + 3</em>.</p>
+        <p>Composite functions have properties such as associativity, meaning <em>(f &#9675; g) &#9675; h = f &#9675; (g &#9675; h)</em>, but they are generally not commutative, meaning <em>f &#9675; g &#8800; g &#9675; f</em>. When working with composite functions, remember that order matters: <em>f(g(x))</em> is not the same as <em>g(f(x))</em>. Also, consider the domain of <em>(f &#9675; g)(x)</em> to ensure the functions are defined appropriately.</p>
         </div>
         <div id="week2" class="tab-content">
             <h2>Week 2: Polynomial and Rational Functions</h2>
